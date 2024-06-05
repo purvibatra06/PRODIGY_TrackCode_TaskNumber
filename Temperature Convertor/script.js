@@ -49,7 +49,7 @@ function convertTemperature() {
 
   resultParagraph.textContent = `The converted temperature is ${convertedTemp.toFixed(2)} ${convertedUnit}`;
 
-  // Clear the result paragraph after 10 seconds
+  
   setTimeout(() => {
     resultParagraph.textContent = '';
   }, 10000);
